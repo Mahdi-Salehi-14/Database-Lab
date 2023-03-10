@@ -1,7 +1,7 @@
 CREATE TABLE `database-lab`.`contacts` ( `id` INT NOT NULL AUTO_INCREMENT , `title` VARCHAR(255) NOT NULL , `email` VARCHAR(255) NOT NULL , `text` TEXT NOT NULL , PRIMARY KEY (`id`));
 INSERT INTO `contacts` (`id`, `title`, `email`, `text`) VALUES (NULL, 'مشکل ورود به سایت', 'Mahdi2015GAD@Gmail.com', 'سلام، من نمیتونم به سایت لاگین کنم');
 DELETE FROM `contacts` WHERE `id` = 1;
-----------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 CREATE TABLE `database-lab`.`user` ( `id` INT NOT NULL AUTO_INCREMENT , `firstname` VARCHAR(255) NOT NULL , `lastname` VARCHAR(255) NOT NULL , `email` VARCHAR(255) NOT NULL , `code` VARCHAR(255) NOT NULL , `gender` VARCHAR(255) NOT NULL , `mobile` VARCHAR(255) NOT NULL , `password` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`), UNIQUE (`email`));
 INSERT INTO `user` (`id`, `firstname`, `lastname`, `email`, `code`, `gender`, `mobile`, `password`) VALUES (NULL, 'Mahdi', 'Salehi', 'Mahdi2015GAD@Gmail.com', '1273935071', 'male', '09162422880', '1234');
 DELETE FROM `user` WHERE `user`.`id` = 1;
