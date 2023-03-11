@@ -1,0 +1,3 @@
+ALTER TABLE `contacts` ADD `delete-status` ENUM('no','yes') NOT NULL AFTER `text`;
+--------------------------------------------------------------------------------
+ALTER TABLE `user` ADD `delete-status` ENUM('no','yes') NOT NULL AFTER `password`;
